@@ -15,6 +15,9 @@ body {
 a {
   text-decoration: none;
 }
+li {
+  list-style-type: none;
+}
 
 /* buttons */
 .button {
@@ -68,6 +71,9 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+}
+.nav-item.active {
+  color: var(--accent-color);
 }
 .nav-item:hover,
 .nav-item:focus {
@@ -154,6 +160,7 @@ a {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  font-style: normal;
   color: var(--hero-text-color);
 }
 .footer-contacts {
